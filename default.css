@@ -1,0 +1,35 @@
+
+/* 样式表只是用来设置控件的属性，并不和标准css一致  */
+
+/* 基 础 样 式 表 */
+
+UIView{font-size:18px;}
+UILabel{background-color:clear;width:100px;height:24px;font-size:20px;font-color:black;}
+UITextField{width:240px; height:32px;}
+UITextView{background-color:#00000000;width:320px;height:100px;}
+UIButton{width:66px; height:32px;}
+UITableView{width:320px;height:200px;}
+
+PxNavBar {left:0px;top:0px;width:320px;height:44px;font-size:24px;font-color:#323836;
+	font-style:bold;text-align:center;background-color:#3F82CA;}
+PxNavBarItem{top:8px;width:60px;height:30px;type:custom;border-width:1px;border-width:1px;border-color:white;border-radius:5px;}
+#navBarItemHelp{width:31px;height:30px;image:navBarItemHelp.png;image-hi:navBarItemHelp-hi.png;}
+#navBarItemSetting{width:31px;height:30px;image:navBarItemSetting.png;image-hi:navBarItemSetting-hi.png;}
+
+.numText{keyboard-type:num;}
+.splitLine{width:320px;height:1px;image:examSplitline.png;}
+
+.confirmBtn{type:custom;background-image:confirmBtn.png;background-image-hi:btn-hi.png;}
+.cancelBtn{type:custom;background-image:cancelBtn.png;background-image-hi:btn-hi.png;}
+
+/* form page element */
+.formInputField{font-size:18px;border-style:none;}
+/* 页 面 样 式 */
+PxBasePage{top:0px;left:0px;width:320px;height:460px;background-image:baseBackground.png;background-color:#F0F7E8;}
+
+#topDishView{width:320px;height:245px;}
+#bottomCouponView{top:250px;width:320px;height:200px;}
+.couponView{width:120px;height:200px;}
+.couponItemTitle{font-size:18px;line-number:2;height:50px;}
+.couponItemContent{top:150px;height:50;line-number:5;font-size:14px;}
+.couponItemCover{top:50px;height:100px;width:100px;}
